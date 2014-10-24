@@ -27,6 +27,6 @@ td:first-of-type {
 
 
 tbody>tr:hover {
-  background-color:yellow;
+  background-color: yellow;
   cursor:pointer;
 }
