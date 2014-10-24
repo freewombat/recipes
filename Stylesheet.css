@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  color: #555555;
+  font-size: 14px;
+  text-align:left;
+ }
+h1, h2, h3, h4, h5, h6 {
+  color:black;
+}
+  
+h2 {
+  font-size: 18x;
+}
+
+footer {
+  font-size: 12px;
+}
+td:first-of-type {
+  font-weight:bold;
+    width:100px;
+}
+
+
+  thead {
+    height: 40px;
+  }
+
+
+tbody>tr:hover {
+  background-color:yellow;
+  cursor:pointer;
+}
