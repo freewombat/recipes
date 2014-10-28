@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: "Arial";
   color: #555555;
   font-size: 14px;
   text-align:left;
@@ -7,11 +7,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:black;
 }
-  
-h2 {
-  font-size: 18x;
+h1 {
+  font-size: 18px;
 }
-
+h2 {
+  font-size: 24px;
+}
+header{
+  background-color: lightgray;
+  height: 15vh;
+}
 footer {
   font-size: 12px;
 }
@@ -30,4 +35,37 @@ td:first-of-type {
 tbody>tr:hover {
   background-color: yellow;
   cursor:pointer;
+}
+hr {
+  color:#ddd;
+
+}
+button {
+  border-color: #8ABD28;
+  border-style: ridge;
+  border-radius: 29%;
+  border-width: 30px;;
+  background-color: #C8F279;
+  height: 20px;
+  float: right;
+  color: darkblue;
+  font-weight:bold;
+}
+img {
+  float: left;
+  width: 100px;
+  padding-right:2px
+
+}
+.linkbox {
+  background-color: #FEFFDB;
+  border-color: #444;
+  border-style: ridge;
+  border-width:5px;
+  width:450px;
+  border-radius:20px;
+  padding: 5px
+}
+.juice:hover {
+  background-image: url("oj.jpg");
 }
