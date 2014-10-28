@@ -66,6 +66,6 @@ img {
   border-radius:20px;
   padding: 5px
 }
-.juice:hover {
+#juice:hover {
   background-image: url("oj.jpg");
 }
