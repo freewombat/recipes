@@ -62,10 +62,14 @@ img {
   border-color: #444;
   border-style: ridge;
   border-width:5px;
-  width:450px;
+  width:550px;
   border-radius:20px;
   padding: 5px
 }
 #juice:hover {
+  background-image:800px 400px;
+  width:800px;
+  height:400px;
+  background-repeat:no-repeat;
   background-image: url("oj.jpg");
 }
